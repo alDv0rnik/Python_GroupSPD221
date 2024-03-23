@@ -46,6 +46,9 @@ def bar(a, b, c=0, *args, d=100, **kwargs):
     pass
 
 
+bar(1, 3, 4, 5, 6, d=600, t=0, k="abc")
+
+
 def func(*args, **kwargs):
     pass
 
